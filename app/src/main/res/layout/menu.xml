@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFEB3B">
+
+                <TextView
+                    android:id="@+id/textView"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.771"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    android:layout_width="77dp"
+                    android:layout_height="57dp"
+                    android:text="Menu"
+                    android:textSize="30dp"
+                    tools:layout_editor_absoluteX="167dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="464dp">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="199dp"
+                    android:layout_height="46dp"
+                    android:text="Settings"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="37dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="199dp"
+                    android:layout_height="46dp"
+                    android:text="Help"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="196dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="199dp"
+                    android:layout_height="46dp"
+                    android:text="View Profile"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="109dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="199dp"
+                    android:layout_height="46dp"
+                    android:text="About"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="269dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="199dp"
+                    android:layout_height="46dp"
+                    android:text="LOGOUT"
+                    tools:layout_editor_absoluteX="106dp"
+                    tools:layout_editor_absoluteY="350dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
